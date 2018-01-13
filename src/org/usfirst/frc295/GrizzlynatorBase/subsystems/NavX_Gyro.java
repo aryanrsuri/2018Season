@@ -40,7 +40,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  * used within a new environment (e.g., when you arrive at a FTC competition
  * event).
  */
-public class NavX_Gyro extends GyroBase implements Gyro, PIDSource, LiveWindowSendable
+public class NavX_Gyro extends GyroBase implements Gyro, PIDSource
 {
 	private AHRS m_spi;
 
